@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   name: register-app-deployment
 spec:
+  progressDeadlineSeconds: 60
   replicas: 2
   selector:
     matchLabels:
