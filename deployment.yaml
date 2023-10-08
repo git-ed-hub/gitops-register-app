@@ -4,7 +4,7 @@ metadata:
   name: register-app-deployment
 spec:
   progressDeadlineSeconds: 60
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: register-app
