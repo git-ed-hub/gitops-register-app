@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: register-app
-          image: testsysadmin8/register-app-pipeline:
+          image: testsysadmin8/register-app-pipeline:1.0.0-10
           resources:
             limits:
               memory: "256Mi"
